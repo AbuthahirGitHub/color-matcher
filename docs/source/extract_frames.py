@@ -18,7 +18,7 @@ def extract_frames(source_video_path, frame_output_folder, video_id):
     cap.release()
 
 if __name__ == "__main__":
-    video_folder = "/content/color-matcher/MyFolder/VideosWOCon"
+    source_video_path = "/content/color-matcher/MyFolder/VideosWOCon"
     frame_output_folder = "/content/color-matcher/MyFolder/Frames"
 
     os.makedirs(frame_output_folder, exist_ok=True)
